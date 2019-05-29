@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.divitens
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.divprincipal
+{
+    width:40%;
+    margin:auto;
+}
+.logo
+{
+    background:url(../img/logo.svg) center no-repeat;
+    background-size:50vh;
+    float:left;
+    height:100vh;    
+    
+}
+
+.btnprincipal
+{
+    width:100%;
+    background-color:#09889B;
+    border-color:#09889B;
+    height:80px;
+    margin:10px auto;
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+
+  
+}
+.col-xl
+{
+    padding-left:10px;
+    padding-right:10px;
+}
+.btnprincipal:hover
+{
+    background-color:#E37221;
+    border-color:#E37221;
+
+}
+.titulo
+{
+    font-family: 'Roboto', sans-serif;
+    color:#959595;
+
+}
+.col_icon
+{
+	height:40px;
+}
+.icon
+{
+	margin:auto;
+	width:50%;
+	display:block;
+	heigth:100%;
+}
+.iconLogin
+{
+	background
+}
+@media screen and (max-device-width: 1440px), screen and (max-width: 500px)
+{
+    .divprincipal
+    {
+        width:50%;
+    }
+
+}
+@media screen and (max-width:1440px) and (min-height:600px), screen and (orientation: portrait)
+{
+    .divprincipal
+    {
+        width:50%;
+    }
+    
+
+}
+@media screen and (max-device-width: 1200px), screen and (max-width: 500px)
+{
+    .divprincipal
+    {
+        width:100%;
+    }
+    .logo
+    {
+        height: 45vh;
+        background-size: auto 40vh;
+    }
+    .btnprincipal
+    {
+        margin-top:10px;
+        height:50px;
+    }
+
+
+}
+@media screen and (max-width:1200px) and (min-height:600px), screen and (orientation: portrait)
+{
+    .divprincipal
+    {
+        width:100%;
+    }
+    .logo
+    {
+        height: 45vh;
+        background-size: auto 40vh;
+
+    }
+    .btnprincipal
+    {
+        margin-top:10px;
+        height:50px;
+    }
+
+    
+
+}
+
+
+@media screen and (max-height: 600px) and (orientation: landscape)
+{
+    .logo
+    {
+        height:100vh;
+        background-size:50vh;
+        width:50%;
+    }
+    .divitens
+    {
+        float:left;
+        width:50%;
+        height:100vh;
+        margin:auto;
+        text-align: center;
+    }
+    .divprincipal
+    {
+        width: 80%;
+    }
+    .btnprincipal
+    {
+        margin:2% auto;
+    }
+
+    
+    
+}
+@media screen and (max-height: 330px) and (orientation: landscape)
+{
+    .titulo
+    {
+        font-size:120%;
+    }
+    
+    .linhabotao
+    {
+        width:100%;
+    }
+
+    
+}
+
